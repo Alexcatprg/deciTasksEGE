@@ -11,4 +11,4 @@ for w in col:
     if '3' in numb and all(int(numb[i]) % 2 != int(numb[i + 1]) % 2 for i in range(len(numb) - 1)):
         count += 1
 print(count)
-#Ответ: 2432
+#Ответ: 2432 (у меня получился)
