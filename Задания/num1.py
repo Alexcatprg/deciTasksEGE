@@ -1,8 +1,4 @@
-S = '8' * 65
-while '222' in S or '888' in S:
-    if '222' in S:
-        S = S.replace('222', '8', 1)
-    else:
-        S = S.replace('888', '2', 1)
-print(S)
-#Ответ: 8
+for a in range(1000):
+    if all((x in q) <= (((x in p) and (not(x in a))) <= (not(x in q))) == True for x in range(1000)
+        for y in range(1000) for p in range(24, 91) for q in range(47, 116)):
+        print()
